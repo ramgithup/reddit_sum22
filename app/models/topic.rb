@@ -1,3 +1,3 @@
 class Topic < ApplicationRecord
-  belongs_to :Sub
+  belongs_to :sub
 end

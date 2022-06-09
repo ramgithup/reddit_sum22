@@ -3,9 +3,9 @@
 one:
   title: MyString
   desc: MyText
-  Sub: one
+  sub: one
 
 two:
   title: MyString
   desc: MyText
-  Sub: two
+  sub: two

@@ -3,7 +3,7 @@ class CreateTopics < ActiveRecord::Migration[7.0]
     create_table :topics do |t|
       t.string :title
       t.text :desc
-      t.belongs_to :Sub, null: false, foreign_key: true
+      t.belongs_to :sub, null: false, foreign_key: true
 
       t.timestamps
     end
